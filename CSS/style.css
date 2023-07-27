@@ -1,0 +1,665 @@
+.container {
+	margin: 0 auto;
+	max-width: 1512px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.a1 {
+	width: 93px;
+	background: url(.png);
+}
+
+.a2 {
+	width: 104px;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+
+	color: #FBCD57;
+}
+
+.container1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+.list-header {
+	display: flex;
+}
+
+.list-header {
+	list-style: none;
+}
+
+.h {
+	text-decoration: none;
+}
+
+.a3 {
+	margin-right: 42px;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+
+	color: #FBCD57;
+}
+
+.h {
+	font-family: 'Pathway Extreme';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+
+	color: #E2E2E2;
+}
+
+.h {
+	font-family: 'Pathway Extreme';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	/* identical to box height */
+	display: flex;
+	align-items: center;
+	color: #E2E2E2
+}
+
+.header {
+	background: #2C2C2C;
+	position: sticky;
+	top: 0;
+}
+
+.burger {
+	background: transparent;
+	border: none;
+	display: none;
+}
+
+.containerhb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px
+}
+
+.hero_block {
+	background: #1C1C1C;
+}
+
+.wow {
+	color: #FBCD57;
+	text-align: center;
+	font-family: Playfair Display SC;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 0;
+}
+
+.wowe {
+	color: #E2E2E2;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Prata";
+	max-width: 900px
+}
+
+.revengers {
+	color: #FBCD57;
+	text-align: center;
+	font-family: Playfair Display SC;
+	font-size: 50px;
+	margin: 0 0 0 270px;
+	font-style: normal;
+	font-weight: 400px;
+	line-height: normal;
+
+
+}
+
+.sbutton {
+	color: #FFF;
+	text-align: center;
+	font-size: 24px;
+	font-family: Rufina;
+	width: 138px;
+	height: 37px;
+	flex-shrink: 0;
+	background: #900000;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #FBCD57;
+}
+
+.about_title {
+	margin: 0;
+	color: #FBCD57;
+	font-size: 44px;
+	font-family: "Playfair Display SC";
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 200px;
+}
+
+.about {
+	background: #1C1C1C;
+}
+
+.skills_full {
+	background: #FBCD57;
+	height: 10px;
+
+}
+
+.skills_done {
+	background: #900000;
+	height: 10px;
+	width: 90%;
+}
+
+.skills_done2 {
+	background: #900000;
+	height: 10px;
+	width: 80%;
+}
+
+
+.skills_done3 {
+	background: #900000;
+	height: 10px;
+	width: 95%;
+}
+
+.skills_name {
+	color: #E2E2E2;
+	font-size: 32px;
+	font-family: Prata;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.skills_list {
+	list-style: none;
+	width: 450px;
+}
+
+.about_content {
+	display: flex;
+}
+
+.about_img {
+	filter: drop-shadow(0 0 10px darkred);
+}
+
+.about_imgDragon {
+	position: absolute;
+	top: 580px;
+	right: 35px;
+	width: 786px;
+	height: 814px;
+	filter: drop-shadow(0 0 30px black);
+}
+
+.video_title {
+	color: #FBCD57;
+	font-size: 48px;
+	font-family: "Playfair Display SC";
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0;
+	margin-left: 200px;
+}
+
+.video {
+	background: #1c1c1c url("../IMG/c1.png") center no-repeat;
+	padding: 56px 0 139px;
+}
+
+.video_border {
+	max-width: 970px;
+	width: 970px;
+	height: 600px;
+	border-radius: 38px;
+	background: #D9D9D971;
+	margin: 44px auto 0px;
+}
+
+.video_container {
+	max-width: 943px;
+	max-height: 575px;
+}
+
+.video_content {
+	width: 943px;
+	height: 575px;
+	border-radius: 38px;
+	margin: 12px 14px 13px 13px;
+}
+
+.gallery_list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1400px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.gallery {
+	background: #1C1C1C url("../IMG/d1.png") center no-repeat;
+}
+
+.gallery_title {
+	color: #FBCD57;
+	text-align: center;
+	font-family: Playfair Display SC;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0 auto 70px;
+}
+
+.gallery_item {
+	width: 49%;
+}
+
+.gallery_img {
+	width: 100%;
+	height: 327px;
+	margin-bottom: 30px;
+
+}
+
+.footer {
+	background: #2C2C2C;
+	padding: 25px 0;
+}
+
+.footer_title {
+	color: #FBCD57;
+	font-family: Playfair Display;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 164.063%;
+}
+
+.footer_text {
+	color: #FBCD57;
+	font-family: Playfair Display;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 164.063%;
+}
+
+.footer_container {
+	display: flex;
+	max-width: 1100px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.footer_list {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	width: 243px;
+}
+
+.footer_item {
+	width: 53px;
+}
+
+.footer_img {
+	border-radius: 25px;
+	width: 100%;
+	height: 50px;
+}
+
+@media (max-width: 834px) {
+	.burger {
+		display: block;
+		margin-right: 50px;
+	}
+
+	.a1 {
+		margin-left: 50px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.container_header {
+		max-width: 600px;
+		justify-content: space-between;
+		margin: 0 auto;
+	}
+
+	.containerhb {
+		max-width: 737px;
+	}
+
+	.hb {
+		width: 390px;
+		height: 353px;
+	}
+
+	.wow {
+		margin-top: 0;
+		font-size: 64px;
+	}
+
+	.wowe {
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	.revengers {
+		color: #FBCD57;
+		font-family: Playfair Display SC;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin: 0 0 0 85px;
+	}
+
+	.about_content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about_img {
+		width: 710.137px;
+		height: 463px;
+	}
+
+	.skills_list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 400px;
+		gap: 15px;
+	}
+
+	.skills_full {
+		width: 400px;
+	}
+
+	.about_imgDragon {
+		width: 676.264px;
+		height: 680.041px;
+		top: 800px;
+		left: 240px;
+	}
+
+	.video_title {
+		font-family: Playfair Display SC;
+		font-size: 48px;
+		font-style: normal;
+		line-height: normal;
+		align-items: center;
+		margin: 0 0 0 350px;
+	}
+
+	.video_border {
+		width: 610px;
+		height: 373px;
+	}
+
+	.video_container {
+		max-width: 590.361px;
+		max-height: 342.423px;
+	}
+
+	.video_content {
+		width: 590.361px;
+		height: 342.423px;
+	}
+
+	.video {
+		background: #1c1c1c url("../IMG/image 39.png") center no-repeat;
+	}
+
+	.gallery_list {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.footer_container {
+		max-width: 689px;
+	}
+}
+
+@media (max-width: 390px) {
+	.burger {
+		display: block;
+		margin-right: 30px;
+		max-width: 32px;
+	}
+
+	.a1 {
+		max-width: 64px;
+		margin-left: 20px;
+	}
+
+	.a2 {
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.containerhb {
+		max: width 380px;
+		flex-direction: column;
+
+	}
+
+	.hb {
+		width: 390px;
+		height: 300px;
+	}
+
+	.wow {
+		margin-top: 0;
+		text-align: center;
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.wowe {
+		text-align: center;
+		font-family: Prata;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.revengers {
+		color: #FBCD57;
+		font-family: Playfair Display SC;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin: 0 0 0 107px;
+	}
+
+	.about_content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about_title {
+		color: #FBCD57;
+		font-family: Playfair Display SC;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin: 0 0 0 135px;
+	}
+
+	.about_img {
+		width: 384px;
+		height: 228px;
+	}
+
+	.skills_list {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		max-width: 280px;
+	}
+
+	.skills_full {
+		width: 250px;
+	}
+
+	.skills_name {
+		margin: 10px 0;
+		font-size: 20px;
+	}
+
+	.about_imgDragon {
+		width: 401.778px;
+		height: 402.409px;
+		top: 750px;
+		left: 40px;
+	}
+
+	.video_title {
+		color: #FBCD57;
+		font-family: Playfair Display SC;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin: 0 0 0 165px;
+	}
+
+	.video_border {
+		width: 306px;
+		height: 170px;
+	}
+
+	.video_container {
+		max-width: 281.557px;
+		max-height: 153.089px;
+	}
+
+	.video_content {
+		width: 281.557px;
+		height: 153.089px;
+	}
+
+	.video {
+		background: #1c1c1c url("../IMG/image 39.png") center no-repeat;
+	}
+
+	.gallery_list {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1000px;
+		justify-content: space-between;
+		margin: 0 auto;
+		padding: 1px;
+	}
+
+	.gallery {
+		background: #1C1C1C url("../IMG/d1.png") center no-repeat;
+	}
+
+	.gallery_title {
+		color: #FBCD57;
+		font-family: Playfair Display SC;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin: 0 auto 70px;
+	}
+
+	.gallery_item {
+		width: 49%;
+	}
+
+	.gallery_img {
+		width: 100%;
+		height: 211.66px;
+		margin-bottom: 15px;
+		object-fit: cover;
+	}
+
+	.footer_container {
+		max: width 380px;
+		flex-direction: column;
+	}
+
+	.footer_title {
+		color: #FBCD57;
+		text-align: center;
+		font-family: Playfair Display;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 164.063%;
+		/* 24.609px */
+	}
+
+	.footer_text {
+		color: #FBCD57;
+		font-family: Playfair Display;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 164.063%;
+		/* 24.609px */
+		margin: 0 0 0 90px;
+	}
+
+	.footer_list {
+		margin: 20px 0 0 30px;
+	}
+
+
+}
